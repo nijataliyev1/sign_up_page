@@ -1,0 +1,58 @@
+.Form {
+    border: 2px solid gray;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+.Form label {
+    margin-top: 15px;
+    color: gray;
+    font-size: 12px;
+}
+
+.Form input {
+    padding: 5px;
+}
+
+.Form button {
+    margin: 10px 0 0;
+    width: 50px;
+    align-self: flex-end;
+}
+
+.Form input:focus {
+    outline: none;
+}
+
+.Form .alert {
+    background-color: #ed4337;
+    width: 200px;
+    margin: 10px 0;
+    border-radius: 5px;
+
+}
+
+.sended {
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    /* top: 1px; */
+    top: calc(50vh - 20px);
+    left: calc(50vw - 75px);
+}
+
+.not-sended {
+    display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
